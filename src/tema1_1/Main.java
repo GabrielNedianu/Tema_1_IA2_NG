@@ -29,6 +29,7 @@ class B extends A{
 	public void readS() {
 		Scanner scanner = new Scanner(System.in);
 		this.s=scanner.nextLine();
+		scanner.close();
 	}
 		
 	
