@@ -1,9 +1,29 @@
 package tema1_5;
 
+interface Mechanism{
+	void move();
+}
+
+class Wheel implements Mechanism{
+
+	@Override
+	public void move() {
+		System.out.println("Mechanism -> move() ");
+	}
+	
+	public void goTo() {
+		move();
+		System.out.println("Mechanism -> goTO() ");
+	}
+	
+}
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//Mechanism mec = new Mechanism();
+		Wheel wheel = new Wheel();
+		wheel.goTo();
 
 	}
 

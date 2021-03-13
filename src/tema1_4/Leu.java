@@ -11,7 +11,6 @@ public abstract class Leu implements Animal_Carnivor {
 	@Override
 	public void eat() {
 		System.out.println("eat->Leu");
-		
 	}
 
 	@Override
