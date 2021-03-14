@@ -28,3 +28,8 @@ public class Main {
 	}
 
 }
+
+
+//Implement se foloseste cand implementam o interfata
+//Extends se foloseste cand extindem o alta clasa deja existenda
+//clasa abstracta poate avea metode implementate 
