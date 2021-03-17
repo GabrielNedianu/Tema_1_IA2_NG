@@ -18,6 +18,7 @@ public static void main(String[] args) {
 				System.err.println("Primul numar introdus gresit!Reintroduceti-l pana este unul corect:");		
 				}
 	}
+	
 	ok=false;
 	while(!ok) {
 		try {

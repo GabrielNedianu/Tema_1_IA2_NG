@@ -8,4 +8,5 @@ public class App {
 	Scanner in = new Scanner(System.in);
 	return in.nextInt();
 	}
+	
 }
