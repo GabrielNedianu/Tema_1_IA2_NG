@@ -6,5 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/Desktop/gson/gson-2.2.2.jar" sourcepath="C:/Users/gabri/Desktop/gson/gson-2.2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
